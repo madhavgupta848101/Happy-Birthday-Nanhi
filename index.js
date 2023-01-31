@@ -41,7 +41,7 @@ var x = setInterval(function () {
 }, 1000);
 
 
-let music = new Audio("gaana9.mp3")
+let music = new Audio("gaana8.mp3")
 let musicplay = () => {
   music.play();
 };
