@@ -4,7 +4,7 @@ counters.forEach((counter) => {
   const updateCounter = () => {
     const targetCount = +counter.getAttribute("data-target");
     const startingCount = +counter.innerHTML;
-    const increment = targetCount / 17;
+    const increment = targetCount / 18;
     if (startingCount < targetCount) {
       counter.innerHTML = `${startingCount + increment}`;
       setTimeout(updateCounter, 250);
